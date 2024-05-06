@@ -1,6 +1,4 @@
 :root {
-  --tile-dim: 8rem;
-  --tile-gap: 4rem;
   --primary: #badcf9;
   --secondary: #ff885e;
 }
@@ -19,6 +17,9 @@ a {
 }
 
 #background {
+  --tile-dim: 8rem;
+  --tile-gap: 4rem;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;

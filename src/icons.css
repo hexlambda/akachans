@@ -1,0 +1,40 @@
+a.link {
+  display: inline-flex;
+  gap: 0.25rem;
+  place-items: center;
+  place-content: center;
+
+  &::before {
+    display: inline-flex;
+    height: 1em;
+    min-width: 1em;
+  }
+
+  &.twitch {
+    &::before {
+      content: url(/icons/twitch.svg);
+      color: #9146ff;
+    }
+  }
+
+  &.youtube {
+    &::before {
+      content: url(/icons/youtube.svg);
+      color: #ff0000;
+    }
+  }
+
+  &.twitter {
+    &::before {
+      content: url(/icons/twitter.svg);
+      color: #1d9bf0;
+    }
+  }
+
+  &.myanimelist {
+    &::before {
+      content: url(/icons/myanimelist.svg);
+      color: #2e51a2;
+    }
+  }
+}

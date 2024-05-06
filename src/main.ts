@@ -1,5 +1,5 @@
 import "@fontsource/days-one";
-import "@fortawesome/fontawesome-free/css/all.css";
+import "./icons.css";
 
 const generateBackgroundTiles = () => {
   const baseFontSize = Number.parseFloat(
